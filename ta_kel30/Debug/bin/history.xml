@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g2 -nostartfiles -Map=ta_kel30.map -O0 --gc-sections -LC:\Users\Raft\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\ta_kel30 -TC:\Users\Raft\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\ta_kel30/arm-gcc-link.ld -g">
+      <target file="ta_kel30.elf" lastModified="18860bbb7bd">
+         <source file="..\obj\Init.o" lastModified="18856b5c136"/>
+         <source file="..\obj\ScanKey.o" lastModified="18856b5c63e"/>
+         <source file="..\obj\DrvADC.o" lastModified="18856b5c8d5"/>
+         <source file="..\obj\DrvSYS.o" lastModified="18856b5c7a9"/>
+         <source file="..\obj\startup_NUC1xx.o" lastModified="18856b5c050"/>
+         <source file="..\obj\Ascii_Table.o" lastModified="18856b5bc87"/>
+         <source file="..\obj\Seven_Segment.o" lastModified="18856b5c3b8"/>
+         <source file="..\obj\LCD_Driver.o" lastModified="18856b5c9dd"/>
+         <source file="..\obj\system_NUC1xx.o" lastModified="18856b5bfa2"/>
+         <source file="..\obj\DrvGPIO.o" lastModified="18856b5c539"/>
+         <source file="..\obj\main.o" lastModified="18860bbb4a5"/>
+         <source file="..\obj\core_cm0.o" lastModified="18856b5ca95"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-g++ 6.3.0 mingw32 -mcpu=cortex-m0 -mthumb -g2 -Wall -O0 -c -DNUC140VE3CN -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include\Driver -I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_core -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_boot -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON -I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30 -I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002 -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include\System">
+      <target file="Ascii_Table.o" lastModified="18856b5bc87">
+         <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\Ascii_Table.C" lastModified="1863f1c9820"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc 6.3.0 mingw32 -mcpu=cortex-m0 -mthumb -g2 -Wall -O0 -c -DNUC140VE3CN -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include\Driver -I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_core -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_boot -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON -I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30 -I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002 -I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include\System">
+      <target file="LCD_Driver.o" lastModified="18856b5c9dd">
+         <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\LCD_Driver.c" lastModified="1863f1c9820"/>
+      </target>
+      <target file="DrvADC.o" lastModified="18856b5c8d5">
+         <source file="..\..\..\cmsis_lib\Src\Driver\DrvADC.c" lastModified="18855ff3d27"/>
+      </target>
+      <target file="startup_NUC1xx.o" lastModified="18856b5c050">
+         <source file="..\..\..\cmsis_boot\startup\startup_NUC1xx.c" lastModified="18855ff3c89"/>
+      </target>
+      <target file="DrvGPIO.o" lastModified="18856b5c539">
+         <source file="..\..\..\cmsis_lib\Src\Driver\DrvGPIO.c" lastModified="18855ff3c54"/>
+      </target>
+      <target file="ScanKey.o" lastModified="18856b5c63e">
+         <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\ScanKey.c" lastModified="1863f1c9820"/>
+      </target>
+      <target file="Seven_Segment.o" lastModified="18856b5c3b8">
+         <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\Seven_Segment.c" lastModified="1863f1c9820"/>
+      </target>
+      <target file="DrvSYS.o" lastModified="18856b5c7a9">
+         <source file="..\..\..\cmsis_lib\Src\Driver\DrvSYS.c" lastModified="18855ff3cfc"/>
+      </target>
+      <target file="main.o" lastModified="18860bbb4a5">
+         <source file="..\..\..\main.c" lastModified="18860bba569"/>
+      </target>
+      <target file="system_NUC1xx.o" lastModified="18856b5bfa2">
+         <source file="..\..\..\cmsis_boot\system_NUC1xx.c" lastModified="18855ff3c9f"/>
+      </target>
+      <target file="core_cm0.o" lastModified="18856b5ca95">
+         <source file="..\..\..\cmsis_core\core_cm0.c" lastModified="18855ff3cbb"/>
+      </target>
+      <target file="Init.o" lastModified="18856b5c136">
+         <source file="..\..\..\Init.c" lastModified="18855ff4b9e"/>
+      </target>
+   </processor>
+</history>

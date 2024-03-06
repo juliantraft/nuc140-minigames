@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include\Driver /I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include /I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_core /I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_boot /I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib /I..\..\..\..\..\..\..\..\..\Programming\NUVOTON /I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR /I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include /I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30 /I..\..\..\..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002 /I..\..\..\..\..\..\..\..\..\Programming\NUVOTON\ta_kel30\cmsis_lib\Include\System">
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\LCD_Driver.c" lastModified="1863f1c9820">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvSYS.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvSPI.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvGPIO.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002\LCD_Driver.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h" lastModified="18855ff3d12">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\System\SysInfra.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\Seven_Segment.c" lastModified="1863f1c9c08">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvGPIO.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvSYS.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002\Seven_Segment.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h" lastModified="18855ff3ce6">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002\LCD_Driver.h" lastModified="1863f1c9820">
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\System\ModuleID.h" lastModified="1863f1c9820">
+      </source>
+      <source file="..\..\..\cmsis_lib\Src\Driver\DrvGPIO.c" lastModified="18855ff403c">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h"/>
+      </source>
+      <source file="..\..\..\Init.c" lastModified="18855ff4b9e">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\Ascii_Table.C" lastModified="1863f1c9820">
+      </source>
+      <source file="..\..\..\cmsis_boot\NUC1xx.h" lastModified="18855ff3c6f">
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_boot\system_NUC1xx.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\System\SysInfra.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvGPIO.h" lastModified="1863f1c9050">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002\Seven_Segment.h" lastModified="1863f1c9820">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_NUC1xx.h" lastModified="18855ff3ca4">
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002\ScanKey.h" lastModified="1863f1c9820">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h" lastModified="18855ff3c37">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="18855ff44a2">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_NUC1xx.c" lastModified="18855ff4087">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_NUC1xx.c" lastModified="18855ff3c89">
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvSYS.h" lastModified="1863f1c9050">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Src\Driver\DrvADC.c" lastModified="18855ff3d27">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cm0.c" lastModified="18855ff40a3">
+      </source>
+      <source file="..\..\..\cmsis_lib\Src\Driver\DrvSYS.c" lastModified="18855ff40e4">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvSPI.h" lastModified="1863f1c9050">
+         <include file="..\..\..\cmsis_boot\NUC1xx.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\System\SysInfra.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Src\NUC1xx-LB_002\ScanKey.c" lastModified="1863f1c9c08">
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\Driver\DrvGPIO.h"/>
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\NUC1xx-LB_002\ScanKey.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\System\SysInfra.h" lastModified="1863f1c9c08">
+         <include file="..\..\..\..\..\..\NUC100SeriesBSP\NuvotonPlatform_IAR\Include\System\ModuleID.h"/>
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+      </source>
+   </includePath>
+</dependencies>

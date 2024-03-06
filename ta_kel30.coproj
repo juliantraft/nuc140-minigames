@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 2.0.6" name="ta_kel30">
+  <Target name="ta_kel30" isCurrent="1">
+    <Device manufacturerId="8" manufacturerName="Nuvoton" chipId="1304" chipName="NUC140VE3CN" boardId="" boardName="" boardUrl="" coreId="" coreName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="DEBUG" value="2"/>
+        <Option name="WARNING" value="1"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="NUC140VE3CN"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00020000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00004000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../../users/raft/appdata/roaming/coocox/coide/configuration/programdata/ta_kel30/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="ta_kel30"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="Nu-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Full Chip"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="C:\Users\Raft\AppData\Roaming\CooCox\CoIDE\config\flash\CooCox-Flash\CoIDE_NUC1xx_128K_Flash\NUC1xx_128.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="46" name="M0 Cmsis Core" path="" type="BasicComponet"/>
+    <Component id="281" name="CMSIS Boot" path="" type="BasicComponet"/>
+    <Component id="282" name="System Definitions" path="" type="BasicComponet"/>
+    <Component id="283" name="SYS" path="" type="BasicComponet"/>
+    <Component id="286" name="GPIO" path="" type="BasicComponet"/>
+    <Component id="287" name="ADC" path="" type="BasicComponet"/>
+  </Components>
+  <LocalComponents/>
+  <Files>
+    <File name="cmsis_lib/Include" path="" type="2"/>
+    <File name="cmsis_boot/NUC1xx.h" path="cmsis_boot/NUC1xx.h" type="1"/>
+    <File name="Init.c" path="Init.c" type="1"/>
+    <File name="cmsis_boot/system_NUC1xx.h" path="cmsis_boot/system_NUC1xx.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="cmsis_lib/Include/Driver/DrvSYS.h" path="cmsis_lib/Include/Driver/DrvSYS.h" type="1"/>
+    <File name="cmsis_lib/Include/System/ModuleID.h" path="cmsis_lib/Include/System/ModuleID.h" type="1"/>
+    <File name="cmsis_lib/Include/Driver/DrvADC.h" path="cmsis_lib/Include/Driver/DrvADC.h" type="1"/>
+    <File name="cmsis_lib/Include/Driver/Seven_Segment.h" path="../../../NUC100SeriesBSP/NuvotonPlatform_IAR/Include/NUC1xx-LB_002/Seven_Segment.h" type="1"/>
+    <File name="cmsis_lib/Src/Driver/ScanKey.c" path="../../../NUC100SeriesBSP/NuvotonPlatform_IAR/Src/NUC1xx-LB_002/ScanKey.c" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis_lib/Include/System" path="" type="2"/>
+    <File name="cmsis_core" path="" type="2"/>
+    <File name="cmsis_lib/Src/Driver/DrvADC.c" path="cmsis_lib/Src/Driver/DrvADC.c" type="1"/>
+    <File name="cmsis_lib/Src/Driver/DrvSYS.c" path="cmsis_lib/Src/Driver/DrvSYS.c" type="1"/>
+    <File name="cmsis_lib" path="" type="2"/>
+    <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
+    <File name="cmsis_boot/startup/startup_NUC1xx.c" path="cmsis_boot/startup/startup_NUC1xx.c" type="1"/>
+    <File name="cmsis_lib/Include/Driver" path="" type="2"/>
+    <File name="cmsis_lib/Src/Driver" path="" type="2"/>
+    <File name="cmsis_lib/Src/Driver/Ascii_Table.C" path="../../../NUC100SeriesBSP/NuvotonPlatform_IAR/Src/NUC1xx-LB_002/Ascii_Table.C" type="1"/>
+    <File name="cmsis_lib/Src/Driver/Seven_Segment.c" path="../../../NUC100SeriesBSP/NuvotonPlatform_IAR/Src/NUC1xx-LB_002/Seven_Segment.c" type="1"/>
+    <File name="cmsis_lib/Src/Driver/LCD_Driver.c" path="../../../NUC100SeriesBSP/NuvotonPlatform_IAR/Src/NUC1xx-LB_002/LCD_Driver.c" type="1"/>
+    <File name="cmsis_lib/Include/System/SysInfra.h" path="cmsis_lib/Include/System/SysInfra.h" type="1"/>
+    <File name="cmsis_boot/system_NUC1xx.c" path="cmsis_boot/system_NUC1xx.c" type="1"/>
+    <File name="cmsis_lib/Src/Driver/DrvGPIO.c" path="cmsis_lib/Src/Driver/DrvGPIO.c" type="1"/>
+    <File name="cmsis_lib/Include/Driver/DrvGPIO.h" path="cmsis_lib/Include/Driver/DrvGPIO.h" type="1"/>
+    <File name="cmsis_lib/Include/Driver/LCD_Driver.h" path="../../../NUC100SeriesBSP/NuvotonPlatform_IAR/Include/NUC1xx-LB_002/LCD_Driver.h" type="1"/>
+    <File name="cmsis_lib/Include/Driver/ScanKey.h" path="../../../NUC100SeriesBSP/NuvotonPlatform_IAR/Include/NUC1xx-LB_002/ScanKey.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="cmsis_lib/Src" path="" type="2"/>
+    <File name="cmsis_core/core_cm0.c" path="cmsis_core/core_cm0.c" type="1"/>
+  </Files>
+  <Bookmarks/>
+</Project>
